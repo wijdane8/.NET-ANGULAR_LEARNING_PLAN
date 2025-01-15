@@ -1,4 +1,4 @@
-# .NET and Angular Self-Learning Plan: Week 1-12 - Comprehensive Guide
+# .NET and Angular Self-Learning Plan: Week 1-12 - Comprehensive Guide 
 
 ## **Weeks 1-2: Setting Foundations**
 
