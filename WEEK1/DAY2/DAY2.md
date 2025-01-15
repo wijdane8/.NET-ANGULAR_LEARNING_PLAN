@@ -1,4 +1,4 @@
-# **Self-Learning Guide: Day 2 - Object-Oriented Programming (OOP) in C#**
+# **.NET and Angular Guide: Day 2 - Object-Oriented Programming (OOP) in C#**
 
 Welcome to Day 2 of your self-paced C# learning journey! Today, you’ll dive into the core concepts of Object-Oriented Programming (OOP), which is essential for writing efficient and maintainable code. You'll learn about classes, objects, properties, methods, inheritance, and polymorphism. Let's get started!
 

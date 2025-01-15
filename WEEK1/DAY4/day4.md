@@ -1,4 +1,4 @@
-# **Self-Learning Guide: Day 4 - Entity Framework Core**
+# **.NET and Angular Guide: Day 4 - Entity Framework Core**
 
 Welcome to Day 4 of your self-paced C# learning journey! Today, you’ll explore **Entity Framework Core (EF Core)**, a powerful Object-Relational Mapping (ORM) tool that simplifies database interactions in your ASP.NET Core applications. By the end of this guide, you'll know how to set up a database, create models, and perform CRUD (Create, Read, Update, Delete) operations. Let’s dive in!
 

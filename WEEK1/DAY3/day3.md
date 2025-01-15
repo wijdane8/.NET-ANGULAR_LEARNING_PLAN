@@ -1,4 +1,4 @@
-# **Self-Learning Guide: Day 3 - Setting Up an ASP.NET Core Project**
+# **.NET and Angular Guide: Day 3 - Setting Up an ASP.NET Core Project**
 
 Welcome to Day 3 of your self-paced C# learning journey! Today, you’ll learn how to set up your first ASP.NET Core web application. ASP.NET Core is a cross-platform framework for building modern, cloud-based, and internet-connected applications. By the end of this guide, you'll have a working web app and a solid understanding of the ASP.NET Core project structure. Let's get started!
 

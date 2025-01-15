@@ -1,4 +1,4 @@
-# **Self-Learning Guide: Day 1 - Introduction to C#**
+# **.NET and Angular Guide: Day 1 - Introduction to C#**
 
 Welcome to your self-paced journey to learn C#! This guide will walk you through essential concepts in a structured way. Follow the instructions step-by-step to grasp the basics of C# and apply what you learn through practical tasks and coding exercises. Let's get started!
 
