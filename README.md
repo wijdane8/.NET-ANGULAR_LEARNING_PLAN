@@ -1,8 +1,8 @@
 # .NET and Angular Self-Learning Plan: Week 1-12 - Comprehensive Guide 
 
-## **Weeks 1-2: Setting Foundations**
+## **Week 1: Setting Foundations**
 
-### **Week 1: .NET Foundations**
+### **.NET Foundations**
 
 #### **Day 1: Introduction to C#**
 - **Topics Covered:**
@@ -57,9 +57,9 @@
 
 ---
 
-## **Weeks 3-4: Backend API Development**
+## **Week 2: Backend API Development**
 
-### **Week 3: Building Secure APIs**
+### **Building Secure APIs**
 
 #### **Day 1: REST APIs with ASP.NET Core**
 - **Topics Covered:**
@@ -80,8 +80,6 @@
 **Lab:**
 1. Implement JWT authentication in your API.
 2. Create roles (e.g., Admin, User) and secure endpoints accordingly.
-
-### **Week 4: Database Integration with Entity Framework**
 
 #### **Day 3: Database Connections**
 - **Topics Covered:**
@@ -105,11 +103,10 @@
 4. Use Moq for mocking dependencies.
 
 ---
-## **Weeks 5-6: Angular Framework**
 
-### **Week 5: Angular Foundations**
+## **Week 3: Angular Foundations**
 
-#### **Day 1: Getting Started with Angular**
+### **Day 1: Getting Started with Angular**
 
 **Goals:**
 - Understand the basics of Angular.
@@ -128,7 +125,7 @@
 
 ---
 
-#### **Day 2: Components and Templates**
+### **Day 2: Components and Templates**
 
 **Goals:**
 - Learn about Angular components and their role in the framework.
@@ -146,7 +143,7 @@
 
 ---
 
-#### **Day 3: Data Binding and Event Handling**
+### **Day 3: Data Binding and Event Handling**
 
 **Goals:**
 - Master the different types of data binding in Angular.
@@ -164,7 +161,7 @@
 
 ---
 
-#### **Day 4: Services and Dependency Injection**
+### **Day 4: Services and Dependency Injection**
 
 **Goals:**
 - Understand how to use services to share data.
@@ -181,9 +178,9 @@
 
 ---
 
-### **Week 6: Angular Advanced Features**
+## **Week 4: Angular Advanced Features**
 
-#### **Day 5: Routing and Navigation**
+### **Day 1: Routing and Navigation**
 
 **Goals:**
 - Build single-page applications with Angular’s routing module.
@@ -200,7 +197,7 @@
 
 ---
 
-#### **Day 6: HTTP Client and APIs**
+### **Day 2: HTTP Client and APIs**
 
 **Goals:**
 - Learn how to interact with REST APIs using Angular’s HTTP Client.
@@ -217,7 +214,7 @@
 
 ---
 
-#### **Day 7: Advanced Angular Concepts**
+### **Day 3: Advanced Angular Concepts**
 
 **Goals:**
 - Dive deeper into Angular’s advanced features.
@@ -234,7 +231,7 @@
 
 ---
 
-#### **Day 8: Building a Mini Project**
+### **Day 4: Building a Mini Project**
 
 **Goals:**
 - Apply all the learned concepts in a hands-on project.
@@ -251,7 +248,7 @@
 
 ---
 
-## **Weeks 7-8: Full Stack Integration**
+## **Week 5: Full Stack Integration**
 
 ### **Project: Task Management System or Expense Tracker**
 - **Goal:**
@@ -265,11 +262,9 @@
 
 ---
 
-## **Weeks 9-10: Advanced Topics**
+## **Week 6: Advanced Topics**
 
-### **Week 9: .NET Advanced Topics**
-
-#### **Day 1: Dependency Injection**
+### **Day 1: Dependency Injection**
 - **Topics Covered:**
   - What is Dependency Injection?
   - Implementing DI in ASP.NET Core
@@ -277,7 +272,7 @@
 **Lab:**
 1. Refactor your API to use Dependency Injection.
 
-#### **Day 2: Middleware and SignalR**
+### **Day 2: Middleware and SignalR**
 - **Topics Covered:**
   - Creating custom middleware
   - Real-time communication with SignalR
@@ -285,16 +280,14 @@
 **Lab:**
 1. Implement a chat feature using SignalR.
 
-### **Week 10: Angular Advanced Topics**
-
-#### **Day 3: Advanced RxJS**
+### **Day 3: Advanced RxJS**
 - **Topics Covered:**
   - Observables and operators
 
 **Lab:**
 1. Use RxJS to handle complex data streams.
 
-#### **Day 4: Lazy Loading and Custom Directives**
+### **Day 4: Lazy Loading and Custom Directives**
 - **Topics Covered:**
   - Optimizing performance with lazy loading
   - Creating custom directives
@@ -305,11 +298,9 @@
 
 ---
 
-## **Weeks 11-12: DevOps & Deployment**
+## **Week 7: DevOps & Deployment**
 
-### **Week 11: Dockerizing Applications and Kubernetes Basics**
-
-#### **Day 1: Docker Basics**
+### **Day 1: Docker Basics**
 - **Topics Covered:**
   - Creating Dockerfiles
   - Building and running Docker containers
@@ -318,7 +309,7 @@
 1. Dockerize your .NET API.
 2. Dockerize your Angular app.
 
-#### **Day 2: Introduction to Kubernetes**
+### **Day 2: Introduction to Kubernetes**
 - **Topics Covered:**
   - What is Kubernetes?
   - Deploying a Dockerized app to a Kubernetes cluster
@@ -326,9 +317,7 @@
 **Lab:**
 1. Deploy your Dockerized app to a Kubernetes cluster.
 
-### **Week 12: CI/CD Pipelines and Final Project Deployment**
-
-#### **Day 3: Setting Up CI/CD**
+### **Day 3: Setting Up CI/CD**
 - **Topics Covered:**
   - Using GitHub Actions
   - Automating builds and deployments
@@ -336,7 +325,7 @@
 **Lab:**
 1. Create a CI/CD pipeline for your project.
 
-#### **Day 4: Final Project Deployment**
+### **Day 4: Final Project Deployment**
 - **Topics Covered:**
   - Finalizing and deploying the capstone project
 
@@ -361,3 +350,4 @@
 
 5. **Hospital Management System:**
    - Multi-user roles, appointment scheduling, billing, and inventory management.
+
