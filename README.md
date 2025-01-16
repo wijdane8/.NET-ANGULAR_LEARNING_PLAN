@@ -105,48 +105,149 @@
 4. Use Moq for mocking dependencies.
 
 ---
+## **Weeks 5-6: Angular Framework**
 
-## **Weeks 5-6: Angular Frontend Development**
+### **Week 5: Angular Foundations**
 
-### **Week 5: Angular Routing and Forms**
+#### **Day 1: Getting Started with Angular**
 
-#### **Day 1: Routing in Angular**
-- **Topics Covered:**
-  - Setting up routes
-  - Navigating between pages
+**Goals:**
+- Understand the basics of Angular.
+- Set up the development environment.
 
-**Lab:**
-1. Create a multi-page Angular app with Home, Products, and About pages.
+**Topics:**
+- What is Angular? Benefits and Use Cases.
+- Installing Node.js and Angular CLI.
+- Creating your first Angular app (`ng new`).
+- Project structure overview.
 
-#### **Day 2: Forms in Angular**
-- **Topics Covered:**
-  - Template-driven and reactive forms
-  - Form validation
+**Exercises:**
+1. Set up a new Angular project.
+2. Run the app and explore its default setup.
+3. Experiment with the Angular CLI commands (`ng serve`, `ng generate`, etc.).
 
-**Lab:**
-1. Create a form for adding new products.
-2. Validate the form inputs.
+---
 
-### **Week 6: HTTP Client and State Management**
+#### **Day 2: Components and Templates**
 
-#### **Day 3: Making HTTP Requests**
-- **Topics Covered:**
-  - Using HttpClient to fetch data
-  - Error handling for HTTP requests
+**Goals:**
+- Learn about Angular components and their role in the framework.
+- Work with templates for building the UI.
 
-**Lab:**
-1. Fetch product data from your API and display it in your Angular app.
+**Topics:**
+- Creating components using Angular CLI.
+- Component decorator, metadata, and lifecycle hooks.
+- Binding data with `{{}}` and using directives like `*ngIf` and `*ngFor`.
 
-#### **Day 4: State Management**
-- **Topics Covered:**
-  - Using services to manage state
-  - Sharing data between components
+**Exercises:**
+1. Create a component for a basic profile card.
+2. Use `*ngFor` to display a list of items (e.g., user names).
+3. Experiment with conditional rendering using `*ngIf`.
 
-**Lab:**
-1. Create a shopping cart feature that uses a service to manage state.
-2. **Include UI/UX best practices:**
-   - Use Angular Material for UI components.
-   - Ensure the application is responsive and mobile-first.
+---
+
+#### **Day 3: Data Binding and Event Handling**
+
+**Goals:**
+- Master the different types of data binding in Angular.
+- Handle user interactions through events.
+
+**Topics:**
+- Property binding (`[]`) and Event binding (`()`).
+- Two-way binding with `[(ngModel)]`.
+- Forms and user input handling.
+
+**Exercises:**
+1. Build a simple form to collect user information.
+2. Use two-way binding for real-time input reflection.
+3. Add a button that triggers an event to log user data to the console.
+
+---
+
+#### **Day 4: Services and Dependency Injection**
+
+**Goals:**
+- Understand how to use services to share data.
+- Learn about Angular’s dependency injection system.
+
+**Topics:**
+- Creating and using services (`ng generate service`).
+- Providing services at different levels (root vs. component-level).
+- Using services to share data between components.
+
+**Exercises:**
+1. Create a service to manage a list of items (e.g., tasks in a to-do app).
+2. Inject the service into two components to display and update the shared data.
+
+---
+
+### **Week 6: Angular Advanced Features**
+
+#### **Day 5: Routing and Navigation**
+
+**Goals:**
+- Build single-page applications with Angular’s routing module.
+
+**Topics:**
+- Setting up routes with `RouterModule`.
+- Configuring routes and route parameters.
+- Navigating between components using the `<router-outlet>`.
+
+**Exercises:**
+1. Create a navigation menu to switch between pages (e.g., Home, About, and Contact).
+2. Pass parameters through the URL and retrieve them in the component.
+3. Use route guards to control access to certain routes.
+
+---
+
+#### **Day 6: HTTP Client and APIs**
+
+**Goals:**
+- Learn how to interact with REST APIs using Angular’s HTTP Client.
+
+**Topics:**
+- Using `HttpClientModule` to make HTTP requests.
+- GET, POST, PUT, and DELETE requests.
+- Handling errors with RxJS operators.
+
+**Exercises:**
+1. Fetch data from a public API and display it in a list.
+2. Create a form to send data to an API.
+3. Handle API errors and display appropriate messages to the user.
+
+---
+
+#### **Day 7: Advanced Angular Concepts**
+
+**Goals:**
+- Dive deeper into Angular’s advanced features.
+
+**Topics:**
+- Lazy loading and module splitting.
+- Observables and RxJS basics.
+- Angular pipes (built-in and custom).
+
+**Exercises:**
+1. Implement lazy loading for a large module.
+2. Create a custom pipe to format text (e.g., convert to uppercase).
+3. Use RxJS to debounce user input in a search bar.
+
+---
+
+#### **Day 8: Building a Mini Project**
+
+**Goals:**
+- Apply all the learned concepts in a hands-on project.
+
+**Mini Project: Task Manager**
+- Create a task manager app with the following features:
+  - Add, edit, and delete tasks.
+  - Display tasks in a list with filtering options.
+  - Use routing for separate views (e.g., All Tasks, Completed Tasks).
+  - Store data using a mock backend or local storage.
+
+**Bonus:**
+- Deploy the app using Angular CLI’s `ng deploy` to a free hosting service.
 
 ---
 
@@ -244,7 +345,7 @@
 
 ---
 
-## **Capstone Project Ideas: Health Care System (With Improvements)**
+## **Capstone Project Ideas: Health Care System **
 
 1. **Patient Management System:**
    - Add RBAC (Admin, Doctor, Patient) and implement JWT authentication.
@@ -260,4 +361,3 @@
 
 5. **Hospital Management System:**
    - Multi-user roles, appointment scheduling, billing, and inventory management.
-
